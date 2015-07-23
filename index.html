@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tic Tac Toe Game</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+
+<header>
+	<h1>Lets Play <span class="ttt">Tic-tac-Toe</span></h1>
+	<p>by Huzaifa Saifuddin</p>
+</header>
+
+
+<div class="game-box">
+	<div id="box1">
+		<h1 class="playname" id="choosen1">Player 1</h1>
+		<ul class="count">
+			<li>Total Won: <span id="count1">0</span></li>
+			<li>Total Lost: <span id="count2">0</span></li>
+			<li>Total Draw: <span id="counta">0</span></li>
+		</ul>
+		<h3 id="result1" class="pos">Game In Progress...<h3>
+
+	</div>
+
+	<div id="box2">
+		<div id="opacgy">
+			<input type="button" class="tic-box" id="btn1" onclick="clickBtn('btn1')"/>
+			<input type="button" class="tic-box" id="btn2" onclick="clickBtn('btn2')"/>
+			<input type="button" class="tic-box" id="btn3" onclick="clickBtn('btn3')"/>
+			<input type="button" class="tic-box" id="btn4" onclick="clickBtn('btn4')"/>
+			<input type="button" class="tic-box" id="btn5" onclick="clickBtn('btn5')"/>
+			<input type="button" class="tic-box" id="btn6" onclick="clickBtn('btn6')"/>
+			<input type="button" class="tic-box" id="btn7" onclick="clickBtn('btn7')"/>
+			<input type="button" class="tic-box" id="btn8" onclick="clickBtn('btn8')"/>
+			<input type="button" class="tic-box" id="btn9" onclick="clickBtn('btn9')"/>
+			</div>
+		<input type="button" id="btnReset" onclick="reset()" value="Reset" />
+	</div>
+	
+	<div id="box2new">
+		<h1 class="playname" id="something">Player 1 Choose</h1>
+		<input type="button" class="xbtn" id="btnx" value="X" onclick="setChoice('X')" />
+		<input type="button" class="obtn" id="btno" value="O" onclick="setChoice('O')" />
+	</div>
+
+	<div id="box3">
+		<h1 class="playname" id="choosen2">Player 2</h1>
+		<ul class="count">
+			<li>Total Won: <span id="count4">0</span></li>
+			<li>Total Lost: <span id="count3">0</span></li>
+			<li>Total Draw: <span id="countb">0</span></li>
+		</ul>
+		<h3 id="result2" class="pos">Game In Progress...<h3>
+
+	</div>
+
+</div>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

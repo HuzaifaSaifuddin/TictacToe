@@ -1,0 +1,178 @@
+header {
+	text-align: center;
+	border: 3px dashed #666;
+	margin-bottom: 30px;
+	height: 100%;
+	overflow: hidden;
+}
+
+header h1 {
+	font-size: 67px;
+	margin-top: 10px;
+}
+header p {
+	margin-top: -45px;
+	margin-left: 480px;
+	margin-bottom: 10px;
+}
+
+header h1 .ttt {
+	background-color: #333;
+	color: #fff;
+	padding: 1px 3px;
+}
+
+#box1 {
+	width: 370px;
+	height: 475px;
+	display: inline-block;
+	border: 3px solid #000;
+	text-align: center;
+}
+#box2, #box2new {
+	width: 360px;
+	height: 475px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 103.5px;
+	text-align: center;
+}
+
+#box3 {
+	width: 370px;
+	height: 475px;
+	display: inline-block;
+	border: 3px solid #000;
+	text-align: center;
+	margin-left: 103.5px;
+
+}
+
+.tic-box {
+	width: 120px;
+	height: 120px;
+	border: none;
+	font-size: 70px;
+	display: inline-block;
+	color: #000;
+	text-align: center;
+	margin-left: -4px;
+	vertical-align: top;
+}
+
+.tic-box:active, .tic-box:focus, .tic-box.visited {
+	border: 0;
+	outline: none;
+}
+
+.tic-box:nth-child(1), #box2 .tic-box:nth-child(4), .tic-box:nth-child(7){
+	margin-left: 0;
+	border-right: 2px dashed #000;
+}
+
+.tic-box:nth-child(2), #box2 .tic-box:nth-child(5), .tic-box:nth-child(8){
+	border-right: 2px dashed #000;
+}
+
+.tic-box:nth-child(1), #box2 .tic-box:nth-child(2), .tic-box:nth-child(3){
+	border-bottom: 2px dashed #000;
+}
+
+.tic-box:nth-child(4), #box2 .tic-box:nth-child(5), .tic-box:nth-child(6){
+	border-bottom: 2px dashed #000;
+}
+
+.tic-box:nth-child(odd) {
+	background-color: #fff;
+}
+
+.tic-box:nth-child(even) {
+	background-color: #fff;
+}
+
+#btnReset {
+	width: 200px;
+	display: block;
+	font-size: 42px;
+	background-color: #000;
+	text-transform: uppercase;
+	border: none;
+	height: 75px;
+	color: #fff;
+	margin: 35px auto;
+	border-radius: 50px;
+	cursor: pointer;
+}
+#btnReset:focus{
+	outline: none;
+}
+
+.playone {
+	display: inline-block;
+}
+
+#play1 {
+	background-color: #fff;
+	border: 1px solid #999;
+	color: #999;
+	text-align: center;
+	width: 200px;
+	font-size: 54px;
+}
+
+.playname {
+	font-size:68px;
+}
+
+.count {
+	list-style-type: none;
+}
+
+.count li {
+	margin-left: -40px;
+}
+
+.count li:first-child {
+	font-size: 24px;
+}
+
+.count li:nth-child(2) {
+	margin-top: 10px;
+}
+
+.count li:last-child {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+#count1,#count2,#count3,#count4,#counta,#countb {
+	background-color: #444;
+	color: #fff;
+	padding: 1px 3px;
+}
+
+.pos {
+	padding-top: 50px;
+	font-size: 24px;
+}
+
+#box2 {
+	display: none;
+}
+
+.obtn, .xbtn {
+	background-color: #000;
+	height: 100px;
+	width: 100px;
+	color: #fff;
+	font-size: 70px;
+	cursor: pointer;
+}
+
+.obtn:active , .xbtn:active {
+	outline: none;
+}
+
+#result1, #result2 {
+	display: none;
+}
