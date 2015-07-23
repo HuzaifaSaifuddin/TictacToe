@@ -30,12 +30,13 @@ header h1 .ttt {
 	text-align: center;
 }
 #box2, #box2new {
-	width: 360px;
+	width: 370px;
 	height: 475px;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 103.5px;
+	margin-left: 98.5px;
 	text-align: center;
+	border: 3px solid #000;
 }
 
 #box3 {
@@ -44,7 +45,7 @@ header h1 .ttt {
 	display: inline-block;
 	border: 3px solid #000;
 	text-align: center;
-	margin-left: 103.5px;
+	margin-left: 98.5px;
 
 }
 
@@ -176,3 +177,48 @@ header h1 .ttt {
 #result1, #result2 {
 	display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
